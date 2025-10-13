@@ -45,16 +45,13 @@ npm run start
  Real screenshots from the A-Frame layouts:
 ## 🏡 Gallery
 
-<table>
-  <tr>
-    <td><img src="gallery/Aframe1.JPEG" alt="Aframe 1" width="100%"></td>
-    <td><img src="gallery/Aframe2.JPEG" alt="Aframe 2" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="gallery/Aframe3.JPEG" alt="Aframe 3" width="100%"></td>
-    <td><img src="gallery/Aframe4.JPEG" alt="Aframe 4" width="100%"></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="gallery/Aframe1.JPEG" height="220" style="object-fit:cover;margin:4px;">
+  <img src="gallery/Aframe2.JPEG" height="220" style="object-fit:cover;margin:4px;">
+  <img src="gallery/Aframe3.JPEG" height="220" style="object-fit:cover;margin:4px;">
+  <img src="gallery/Aframe4.JPEG" height="220" style="object-fit:cover;margin:4px;">
+</p>
+
 ---
 
 ## 🧠 What I Learned
