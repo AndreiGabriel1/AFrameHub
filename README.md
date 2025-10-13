@@ -46,10 +46,10 @@ npm run start
 ## 🏡 Gallery
 
 <p align="center">
-  <img src="gallery/Aframe1.JPEG" width="45%">
-  <img src="gallery/Aframe2.JPEG" width="45%">
-  <img src="gallery/Aframe3.JPEG" width="45%">
-  <img src="gallery/Aframe4.JPEG" width="45%">
+  <img src="gallery/Aframe1.JPEG" height="220" style="object-fit:cover;margin:4px;">
+  <img src="gallery/Aframe2.JPEG" height="220" style="object-fit:cover;margin:4px;">
+  <img src="gallery/Aframe3.JPEG" height="220" style="object-fit:cover;margin:4px;">
+  <img src="gallery/Aframe4.JPEG" height="220" style="object-fit:cover;margin:4px;">
 </p>
 
 ---
