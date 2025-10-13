@@ -44,15 +44,15 @@ npm run start
 ---
 📸 Preview
 
-🧠 What I Learned
+## 🧠 What I Learned
 
-- **Designing a clean UX for dynamic content
+- Designing a clean UX for dynamic content
 
-- **Managing reviews and interactive data
+- Managing reviews and interactive data
 
-- **Building modular EJS templates and Express routes
+- Building modular EJS templates and Express routes
 
-👤 Author
+## 👤 Author
 
 **Built by Andrei-Gabriel Dinu — Entry-Level Web Developer (career change)
 GitHub: AndreiGabriel1
