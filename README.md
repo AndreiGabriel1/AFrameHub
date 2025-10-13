@@ -1,37 +1,58 @@
-# AFrameHub
+# 🏠 AFrameHub
 
-> **Scop:** Website dinamic personalizat pe tema caselor A‑Frame.
+**AFrameHub** is a custom dynamic website built around the concept of A-Frame houses — showcasing modern architecture, design, and client interaction.  
+It focuses on a clean presentation, interactive content, and smooth user experience.
 
-## 🧩 Stack
-- Node.js, Express, EJS, Bootstrap 5
-- (Pregătit) MongoDB via Mongoose
-- Extra: Cloudinary pentru upload (roadmap), rating mediu & sortare
+> 🧭 *Portfolio project demonstrating full-stack web development for a real-estate themed website.*
 
-## ✅ Funcționalități
-**Core**
-- Pagină modele + detalii
-- Formular contact validat
-- Recenzii (CRUD) + moderare
+---
 
-**Plus (roadmap)**
-- Upload imagini (Cloudinary)
-- Sortare după rating + rating mediu
+## ⚙️ Tech Stack
 
-## ▶️ Rulare locală
+- **Backend:** Node.js, Express, EJS  
+- **Frontend:** Bootstrap 5  
+- **Database:** (Ready) MongoDB via Mongoose  
+- **Extras:** Cloudinary for image upload *(roadmap)*, rating system & sorting  
+
+---
+
+## 🚀 Features
+
+### 🧱 Core
+- ✅ Dynamic models page with detailed views  
+- ✅ Contact form with validation  
+- ✅ Reviews (CRUD) with moderation  
+
+### 🧩 Upcoming (Roadmap)
+- 📤 Image uploads via Cloudinary  
+- ⭐ Sorting by rating & average rating  
+
+---
+
+## 💻 Run Locally
+
+Clone the project and run it on your machine:
+
 ```bash
 npm install
 npm run start
-# apoi deschide http://localhost:3000
-```
-> Pentru conectare MongoDB: creează un fișier `.env` cu `MONGODB_URI=...` și înlocuiește data layer-ul mock.
 
-## 🖼️ Preview
-![Preview](/public/img/mock.png)
+ Then open http://localhost:3000
 
-## 🧠 Ce am învățat
-- UX de prezentare într-un site dinamic
-- Gestionare conținut & recenzii
+>💡 To connect MongoDB: create a .env file with MONGODB_URI=... and replace the mock data layer.
 
-## ✍️ Author
-**Andrei‑Gabriel Dinu** — București  
-GitHub: https://github.com/AndreiGabriel1
+---
+📸 Preview
+
+🧠 What I Learned
+
+Designing a clean UX for dynamic content
+
+Managing reviews and interactive data
+
+Building modular EJS templates and Express routes
+
+👤 Author
+
+Built by Andrei-Gabriel Dinu — Entry-Level Web Developer (career change)
+GitHub: AndreiGabriel1
