@@ -46,10 +46,10 @@ npm run start
 ## 🏡 Gallery
 
 <p align="center">
-  <img src="gallery/Aframe1.png" width="45%">
-  <img src="gallery/Aframe2.png" width="45%">
-  <img src="gallery/Aframe3.png" width="45%">
-  <img src="gallery/Aframe4.png" width="45%">
+  <img src="gallery/Aframe1.jpeg" width="45%">
+  <img src="gallery/Aframe2.jpeg" width="45%">
+  <img src="gallery/Aframe3.jpeg" width="45%">
+  <img src="gallery/Aframe4.jpeg" width="45%">
 </p>
 
 ---
