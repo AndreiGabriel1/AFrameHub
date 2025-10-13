@@ -36,13 +36,15 @@ Clone the project and run it on your machine:
 ```bash
 npm install
 npm run start
+```
 
  Then open http://localhost:3000
-
 >💡 To connect MongoDB: create a .env file with MONGODB_URI=... and replace the mock data layer.
 
----
 📸 Preview
+![Preview](public/img/mock.png)
+
+---
 
 ## 🧠 What I Learned
 
@@ -52,7 +54,10 @@ npm run start
 
 - Building modular EJS templates and Express routes
 
+---
+
 ## 👤 Author
 
-**Built by Andrei-Gabriel Dinu — Entry-Level Web Developer (career change)
-GitHub: AndreiGabriel1
+**Andrei‑Gabriel Dinu** — București  
+GitHub: https://github.com/AndreiGabriel1
+
