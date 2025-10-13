@@ -39,7 +39,7 @@ npm run start
 ```
 
  Then open http://localhost:3000
->💡 To connect MongoDB: create a .env file with MONGODB_URI=... and replace the mock data layer.
+> 💡 To connect MongoDB: create a .env file with MONGODB_URI=... and replace the mock data layer.
 
 📸 Preview
 ```text
@@ -50,10 +50,9 @@ AFrameHub/
       ├─ Aframe2.png
       ├─ Aframe3.png
       └─ Aframe4.png
+```
+--- 
 
----
-
-```markdown
 ## 🏡 Gallery
 
 <p align="center">
