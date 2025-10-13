@@ -41,25 +41,15 @@ npm run start
  Then open http://localhost:3000
 > 💡 To connect MongoDB: create a .env file with MONGODB_URI=... and replace the mock data layer.
 
-📸 Preview
-```text
-AFrameHub/
-└─ public/
-   └─ gallery/
-      ├─ Aframe1.png
-      ├─ Aframe2.png
-      ├─ Aframe3.png
-      └─ Aframe4.png
-```
 --- 
-
+ Real screenshots from the A-Frame layouts:
 ## 🏡 Gallery
 
 <p align="center">
-  <img src="public/gallery/Aframe1.png" width="45%">
-  <img src="public/gallery/Aframe2.png" width="45%">
-  <img src="public/gallery/Aframe3.png" width="45%">
-  <img src="public/gallery/Aframe4.png" width="45%">
+  <img src="gallery/Aframe1.png" width="45%">
+  <img src="gallery/Aframe2.png" width="45%">
+  <img src="gallery/Aframe3.png" width="45%">
+  <img src="gallery/Aframe4.png" width="45%">
 </p>
 
 ---
