@@ -42,7 +42,26 @@ npm run start
 >💡 To connect MongoDB: create a .env file with MONGODB_URI=... and replace the mock data layer.
 
 📸 Preview
-![Preview](public/img/mock.png)
+```text
+AFrameHub/
+└─ public/
+   └─ gallery/
+      ├─ Aframe1.png
+      ├─ Aframe2.png
+      ├─ Aframe3.png
+      └─ Aframe4.png
+
+---
+
+```markdown
+## 🏡 Gallery
+
+<p align="center">
+  <img src="public/gallery/Aframe1.png" width="45%">
+  <img src="public/gallery/Aframe2.png" width="45%">
+  <img src="public/gallery/Aframe3.png" width="45%">
+  <img src="public/gallery/Aframe4.png" width="45%">
+</p>
 
 ---
 
