@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AFrameHub UI · Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="p-4">
+    <h1 class="h4 mb-3">AFrameHub - API Test UI</h1>
+
+    <button id="load" class="btn btn-primary mb-3">Încarcă liste</button>
+
+    <ul id="list" class="list-group"></ul>
+
+    <script>
+      document.getElementById("load").onclick = async () => {
+        const res = await fetch("/api/frames");
+        const json = await res.json();
+        const list = document.getElementById("list");
+        list.innerHTML = "";
+
+        json.data.forEach((f) => {
+          const li = document.createElement("li");
+          li.className = "list-group-item";
+          li.innerHTML = `<a href="/api/frames/${f.slug}" target="_blank">${f.title}</a>`;
+          list.appendChild(li);
+        });
+      };
+    </script>
+  </body>
+</html>
