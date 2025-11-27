@@ -1,44 +1,71 @@
-# AFrameHub — Galerie și prezentare modele A-Frame
+# AFrameHub — Lightweight A-Frame Model Showcase (Express + EJS)
 
-AFrameHub este o aplicație de prezentare pentru modele A-Frame, construită cu un backend minimalist în Express și un set de pagini statice pentru afișarea imaginilor și informațiilor asociate fiecărei construcții.
-
-## Funcționalități principale
-
-- Galerie de imagini cu modele A-Frame
-- Pagină principală cu prezentare
-- Bază de date mock (JSON) pentru titlu și descriere
-- Structură pregătită pentru pagini detaliu sau sistem de recenzii
-- Server simplu Express pentru routing, randare EJS și livrare fișiere statice
+AFrameHub is a lightweight presentation site for A-Frame house models.  
+It combines a minimal Express backend with static pages rendered through EJS, designed for fast prototyping and clear structure.
 
 ---
 
-## Arhitectură și decizii tehnice
+## Features
 
-- Server backend construit cu Express (Node.js)
-- Render HTML cu EJS pentru flexibilitate și extensibilitate
-- Structură de directoare clar separată: `views/`, `public/`, `gallery/`, `data/`
-- Resurse statice servite din `public/` (CSS, imagini)
-- Date demo în format JSON pentru prototipare rapidă
-- Proiectul poate fi extins ușor cu:
-  - pagini detaliu pentru fiecare model
-  - CRUD pentru recenzii
-  - upload de imagini
-  - integrare cu o bază de date reală
+- Image gallery for A-Frame houses
+- Simple presentation homepage
+- Mock JSON dataset for titles and descriptions
+- Layout prepared for future detail pages and review system
+- Express server for routing, templating and serving static assets
 
 ---
 
-## Journal tehnic (rezumat)
+## Architecture & Technical Decisions
 
-- Am păstrat backend-ul cât mai simplu pentru încărcare rapidă și claritate
-- EJS oferă flexibilitate pentru a genera pagini dinamice dacă proiectul este extins ulterior
-- Structura actuală este potrivită pentru un prototip de prezentare sau un microsite tehnic
-- Modelul de date în JSON permite testare imediată fără configurare suplimentară
-- Arhitectura este pregătită pentru a evolua într-un site cu caracteristici avansate (recenzii, conturi, galerie extinsă)
+- Backend built with **Express (Node.js)**  
+- Views rendered with **EJS**, allowing future dynamic extensions
+- Clean directory separation:
+  - `views/` for templates  
+  - `public/` for CSS & static assets  
+  - `gallery/` for images  
+  - `data/` for JSON mock data
+- The project structure supports scaling to:
+  - detail pages per model  
+  - review CRUD system  
+  - image upload  
+  - integration with a real database
+
+### Project Structure
+
+```
+views/
+public/
+gallery/
+data/
+server.js
+```
 
 ---
 
-## Detalii suplimentare
+## Technical Journal (Summary)
 
-- Stack: Node.js, Express, EJS, Bootstrap, CSS custom
-- Proiect optim pentru prezentare vizuală sau demonstrator rapid
-- Poate fi hostat ușor pe orice serviciu care suportă Node.js
+- The backend is intentionally minimal for fast loading and easy reasoning
+- EJS enables progressive enhancement into dynamic pages if needed
+- JSON mock dataset allows immediate testing with zero setup
+- Architecture intentionally mirrors a small real-world product:
+  - presentation layer
+  - assets layer
+  - backend router
+  - expandable data source
+
+---
+
+## Additional Details
+
+- Stack: **Node.js**, **Express**, **EJS**, **Bootstrap**, custom CSS
+- Suitable for visualization, prototyping, or a compact presentation microsite
+- Can be hosted on any Node-compatible platform with minimal configuration
+
+---
+
+## Architect’s Log
+
+- The project was intentionally kept small to highlight structure, not complexity.
+- Rendering via EJS prepares the codebase for future dynamic pages without restructuring.
+- The gallery and dataset are isolated to make the migration to real database storage straightforward.
+- The architecture forms a simple base that can be expanded into a complete product (reviews, authentication, CMS-like editing, image uploads).
