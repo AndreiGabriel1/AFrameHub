@@ -1,71 +1,44 @@
-# 🏠 AFrameHub
+# AFrameHub — Galerie și prezentare modele A-Frame
 
-**AFrameHub** is a custom dynamic website built around the concept of A-Frame houses — showcasing modern architecture, design, and client interaction.  
-It focuses on a clean presentation, interactive content, and smooth user experience.
+AFrameHub este o aplicație de prezentare pentru modele A-Frame, construită cu un backend minimalist în Express și un set de pagini statice pentru afișarea imaginilor și informațiilor asociate fiecărei construcții.
 
-> 🧭 *Portfolio project demonstrating full-stack web development for a real-estate themed website.*
+## Funcționalități principale
 
----
-
-## ⚙️ Tech Stack
-
-- **Backend:** Node.js, Express, EJS  
-- **Frontend:** Bootstrap 5  
-- **Database:** (Ready) MongoDB via Mongoose  
-- **Extras:** Cloudinary for image upload *(roadmap)*, rating system & sorting  
+- Galerie de imagini cu modele A-Frame
+- Pagină principală cu prezentare
+- Bază de date mock (JSON) pentru titlu și descriere
+- Structură pregătită pentru pagini detaliu sau sistem de recenzii
+- Server simplu Express pentru routing, randare EJS și livrare fișiere statice
 
 ---
 
-## 🚀 Features
+## Arhitectură și decizii tehnice
 
-### 🧱 Core
-- ✅ Dynamic models page with detailed views  
-- ✅ Contact form with validation  
-- ✅ Reviews (CRUD) with moderation  
-
-### 🧩 Upcoming (Roadmap)
-- 📤 Image uploads via Cloudinary  
-- ⭐ Sorting by rating & average rating  
-
----
-
-## 💻 Run Locally
-
-Clone the project and run it on your machine:
-
-```bash
-npm install
-npm run start
-```
-
- Then open http://localhost:3000
-> 💡 To connect MongoDB: create a .env file with MONGODB_URI=... and replace the mock data layer.
-
---- 
- Real screenshots from the A-Frame layouts:
-## 🏡 Gallery
-
-<p align="center">
-  <img src="gallery/Aframe1.JPEG" height="220" style="object-fit:cover;margin:4px;">
-  <img src="gallery/Aframe2.JPEG" height="220" style="object-fit:cover;margin:4px;">
-  <img src="gallery/Aframe3.JPEG" height="220" style="object-fit:cover;margin:4px;">
-  <img src="gallery/Aframe4.JPEG" height="220" style="object-fit:cover;margin:4px;">
-</p>
+- Server backend construit cu Express (Node.js)
+- Render HTML cu EJS pentru flexibilitate și extensibilitate
+- Structură de directoare clar separată: `views/`, `public/`, `gallery/`, `data/`
+- Resurse statice servite din `public/` (CSS, imagini)
+- Date demo în format JSON pentru prototipare rapidă
+- Proiectul poate fi extins ușor cu:
+  - pagini detaliu pentru fiecare model
+  - CRUD pentru recenzii
+  - upload de imagini
+  - integrare cu o bază de date reală
 
 ---
 
-## 🧠 What I Learned
+## Journal tehnic (rezumat)
 
-- Designing a clean UX for dynamic content
-
-- Managing reviews and interactive data
-
-- Building modular EJS templates and Express routes
+- Am păstrat backend-ul cât mai simplu pentru încărcare rapidă și claritate
+- EJS oferă flexibilitate pentru a genera pagini dinamice dacă proiectul este extins ulterior
+- Structura actuală este potrivită pentru un prototip de prezentare sau un microsite tehnic
+- Modelul de date în JSON permite testare imediată fără configurare suplimentară
+- Arhitectura este pregătită pentru a evolua într-un site cu caracteristici avansate (recenzii, conturi, galerie extinsă)
 
 ---
 
-## 👤 Author
+## Detalii suplimentare
 
-**Andrei‑Gabriel Dinu** — București  
-GitHub: https://github.com/AndreiGabriel1
-
+- Stack: Node.js, Express, EJS, Bootstrap, CSS custom
+- Proiect optim pentru prezentare vizuală sau demonstrator rapid
+- Poate fi hostat ușor pe orice serviciu care suportă Node.js
